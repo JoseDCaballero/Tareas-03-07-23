@@ -1,0 +1,66 @@
+body{
+    margin: 0 50px;
+}
+.container{
+    display: flex;
+    gap:50px;
+    /* display: grid;
+    grid-row: 1fr 1fr; */
+}
+#post{
+    width: 400px;
+}
+
+#post div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    gap: 25px;
+}
+
+i{
+    cursor: pointer;
+}
+
+#msg{
+    color: red;
+}
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg);
+    background-size: cover; 
+    /* background-color: rgb(76, 0, 255); */
+}
+.titul {
+    font-size: 40px;
+    color: #ffffff;
+}
+label {
+    color: #ffffff;
+    font-size: 20px;    
+} 
+.right {
+    word-wrap: break-word;
+    overflow-y: auto;
+    color: #ffffff;
+    font-size: 20px;
+}
+.holmes {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 20px;
+    border: solid 5px;
+    border-color: #ffffff;
+    width: 600px;
+    height: 400px;
+    resize: none;
+    outline: none;
+}
+.boton {
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
